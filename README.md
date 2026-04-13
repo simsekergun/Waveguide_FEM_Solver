@@ -6,6 +6,8 @@ The default test case models a **Si₃N₄-on-SiO₂** (silicon nitride) ridge w
 
 ---
 
+![FEM Output](FEM_output.png)
+
 ## Features
 
 - **Full-vectorial formulation** using a mixed Nedelec (edge) + Lagrange (nodal) element basis, resolving all three components of the electric field (Ex, Ey, Ez)
