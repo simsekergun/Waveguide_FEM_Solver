@@ -2,7 +2,7 @@
 
 A self-contained Python implementation of a full-vectorial finite element method (FEM) solver for computing guided modes in dielectric optical waveguides. Originally written in MATLAB and ported to Python using NumPy, SciPy, and Matplotlib — no commercial toolboxes or external mesh generators required.
 
-The default test case models a **Si₃N₄-on-SiO₂** (silicon nitride) ridge waveguide at λ = 1.55 µm, but the solver is geometry- and material-agnostic.
+The default test case models a **Si₃N₄** (silicon nitride) waveguide surrounded by SiO₂ at λ = 1.55 µm, but the solver is geometry- and material-agnostic.
 
 ---
 ## MATLAB OUTPUT EXAMPLE
