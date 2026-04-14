@@ -1,0 +1,8 @@
+pyproject.toml
+waveguide_fem/__init__.py
+waveguide_fem/solver.py
+waveguide_fem.egg-info/PKG-INFO
+waveguide_fem.egg-info/SOURCES.txt
+waveguide_fem.egg-info/dependency_links.txt
+waveguide_fem.egg-info/requires.txt
+waveguide_fem.egg-info/top_level.txt

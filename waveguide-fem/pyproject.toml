@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "waveguide-fem"           # this is the pip install name
+version = "1.1.2"
+description = "Full-vectorial FEM mode solver for dielectric waveguides"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Ergun Simsek", email = "simsek@umbc.edu" }]
+keywords = ["photonics", "waveguide", "FEM", "mode solver", "silicon photonics"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.9",
+    "matplotlib>=3.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/simsekergun/Waveguide_FEM_Solver"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["waveguide_fem*"]

@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: waveguide-fem
+Version: 1.1.2
+Summary: Full-vectorial FEM mode solver for dielectric waveguides
+Author-email: Ergun Simsek <simsek@umbc.edu>
+License: MIT
+Project-URL: Homepage, https://github.com/simsekergun/Waveguide_FEM_Solver
+Keywords: photonics,waveguide,FEM,mode solver,silicon photonics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.22
+Requires-Dist: scipy>=1.9
+Requires-Dist: matplotlib>=3.5
