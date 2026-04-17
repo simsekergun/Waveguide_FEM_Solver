@@ -5,7 +5,7 @@ A self-contained Python implementation of a full-vectorial finite element method
 The default test case models a **Si₃N₄** (silicon nitride) waveguide surrounded by SiO₂ at λ = 1.55 µm, but the solver is geometry- and material-agnostic.
 
 If you use this code for your research, please cite: <br>
-E. Simsek, “And Yet Another FEM-Based Mode Solver for Dielectric Waveguides,” arXiv preprint arXiv:2503.17746, Apr. 13, 2026.
+E. Simsek, “And Yet Another FEM-Based Mode Solver for Dielectric Waveguides,” arXiv preprint arXiv:2604.12014, Apr. 13, 2026.
 
 ---
 ## MATLAB OUTPUT EXAMPLE
